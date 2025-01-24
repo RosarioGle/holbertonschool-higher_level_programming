@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 def matrix_divided(matrix, div):
-    
+
     """
     This function divides all elements of a matrix
 
@@ -11,7 +11,7 @@ def matrix_divided(matrix, div):
 
     Return:
         The list of lists: all elements divided inside a new matrix
-    
+
     Raises:
         TypeError: if the matrix is not a lits of interger or float
         of intergers or floats,

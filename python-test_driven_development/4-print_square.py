@@ -4,8 +4,9 @@
 Print a square
 """
 
+
 def print_square(size):
-    
+
     """
     Print a square with the symbol #
     Parametres:

@@ -5,7 +5,7 @@ def add_integer(a, b=98):
     """
     Return the sum of two integer.
     The arguments in float are converted to ints before the addition.
-    
+
     Taises:
     TypeError: If either of Arguments are non-integer and non-float.
     """

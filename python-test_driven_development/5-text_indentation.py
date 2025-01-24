@@ -4,8 +4,9 @@
 Contain a function that prints a text with 2 new lines after a symbol
 """
 
+
 def text_indentation(text):
-    
+
     """
     prints a text with 2 new lines after one of these characters: ., ? or :
 
@@ -32,4 +33,3 @@ def text_indentation(text):
             continue
         i += 1
     print(new_text, end="")
-    
