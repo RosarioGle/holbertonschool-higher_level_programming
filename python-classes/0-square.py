@@ -3,6 +3,6 @@
 """create new empty class"""
 
 
-class square:
+class Square:
     """difine the class square"""
     pass
