@@ -6,11 +6,12 @@ BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
 class Rectangle(BaseGeometry):
     """Define a Rectangle"""
+
     def __init__(self, width, height):
         """Instantiation with width and height
     Args:
-        width(int): the width of the rectangle
-        height(int): the height of the rectangle
+        width (int): the width of the rectangle
+        height (int): the height of the rectangle
     
     Raises:
         TypeError: If width or height is not an integer
