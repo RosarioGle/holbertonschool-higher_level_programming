@@ -17,8 +17,8 @@ class Rectangle(BaseGeometry):
             height (height): height of the Rectangle
 
         Raises:
-            AttributeError: if missing width arg
-            AttributeError: if missing height arg
+            TypeError: If width or height is not an integer
+            ValueError: If width or height is less than or equal to 0
         """
         self.__width = self.integer_validator("width", width)
         self.__height = self.integer_validator("height", height)
