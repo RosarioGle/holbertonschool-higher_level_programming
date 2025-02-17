@@ -14,7 +14,7 @@ class Rectangle(BaseGeometry):
 
         Args:
             width (int): width of the Rectangle
-            height (height): height of the Rectangle
+            height (int): height of the Rectangle
 
         Raises:
             TypeError: If width or height is not an integer
