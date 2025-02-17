@@ -13,6 +13,6 @@ def from_json_string(my_str):
 
     Returns:
         object: the python data structure represented be the
-        JSON string    
+        JSON string
     """
     return json.loads(my_str)
