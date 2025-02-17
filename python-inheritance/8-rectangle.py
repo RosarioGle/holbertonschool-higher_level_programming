@@ -1,26 +1,24 @@
 #!/usr/bin/python3
 """
-Write a class Rectangle who inherit
-from BaseGeometry (7-base_geometry.py)
+Rectangle module.
 """
 BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
 
 class Rectangle(BaseGeometry):
     """
-    Define a Rectangle
+    Rectangle class inheriting from BaseGeometry.
     """
-
     def __init__(self, width, height):
-        """
-        Instantiation with width and height
+        """Rectangle constructor
+
         Args:
-            width (int): the width of the rectangle
-            height (int): the height of the rectangle
+            width (int): width of the Rectangle
+            height (height): height of the Rectangle
 
         Raises:
-            TypeError: If width or height is not an integer
-            ValueError: If width or height is less than or equal to 0
+            AttributeError: if missing width arg
+            AttributeError: if missing height arg
         """
         self.__width = self.integer_validator("width", width)
         self.__height = self.integer_validator("height", height)
