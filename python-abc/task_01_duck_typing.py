@@ -3,6 +3,7 @@
 class named Shape with two abstract methods: area and perimeter
 """
 from abc import *
+import math
 
 
 class Shape(ABC):
@@ -30,13 +31,13 @@ class Circle(Shape):
         """
         calculate and return the area of the circle
         """
-        return 3.14159 * self.radius ** 2
+        return math.pi * self.radius ** 2
 
     def perimeter(self):
         """
         calculate and return the perimeter of the circle
         """
-        return 2 * 3.14159 * self.radius
+        return 2 * math.pi * self.radius
 
 class Rectangle(Shape):
     """
