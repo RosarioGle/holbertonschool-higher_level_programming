@@ -13,7 +13,13 @@ class Shape(ABC):
     @abstractmethod
     def area(self):
         """
-        abstract base class representing a geometric shape
+        abstract base class representing a geometric area
+        """
+        pass
+
+    def perimeter(self):
+        """
+        abstarct base class representing a geometric perimeter
         """
         pass
 
@@ -37,7 +43,7 @@ class Circle(Shape):
         """
         calculate and return the perimeter of the circle
         """
-        return 2 * math.pi * self.radius
+        return abs(2 * self.radius * math.pi)
 
 class Rectangle(Shape):
     """
@@ -60,7 +66,7 @@ class Rectangle(Shape):
         """
         calculate and return the parimeter of the rectangle
         """
-        return 2 * (self.width + self.height)
+        return abs(2 * (self.width + self.height))
 
 def shape_info(shape):
     """
